@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: whitesmoke;
+  color: black;
+}
+
+.navbar {
+  background-color: goldenrod;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+}
+
+.navbar .logo strong {
+  color: #f6c90e;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+.category {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.cat-box {
+  width: 250px;
+  padding: 1rem;
+}
+
+.cat-box img {
+  width: 80px;
+  height: 80px;
+}
+
+.discount {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.discount .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.offer img {
+  width: 80px;
+  height: 80px;
+}
+
+.offer button {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  background: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.offer button:hover {
+  background: darkblue;
+}
+
+#countdown {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.cat-box img, .offer img {
+  transition: transform 0.6s ease;
+}
+
+.cat-box:hover img,
+.offer:hover img {
+  transform: scale(1.1) rotate(2deg);
+}
+
+
+.visible img {
+  animation: imageBounce 1s ease;
+}
+
+@keyframes imageBounce {
+  0% {
+    transform: scale(0.9) translateY(-10px);
+  }
+  50% {
+    transform: scale(1.05) translateY(10px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+discount {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)),
+              url('image/download\ \(1\).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  transition: background 0.5s ease-in-out;
+}
+.discount h2{
+    color: darkgoldenrod;
+}
