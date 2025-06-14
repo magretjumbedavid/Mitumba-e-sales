@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar {
+  background-color: #DAA520;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+}
+
+.logo span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 600;
+}
+
+.download-btn {
+  background: white;
+  color: #DAA520;
+  border: 2px solid white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.contact-section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  text-align: left;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border: none;
+  background: #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: #DAA520;
+  color: #002147;
+  padding: 1rem;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.newsletter {
+  padding: 1rem;
+  border: none;
+  background: #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.subscribe-btn {
+  border: 2px solid #DAA520;
+  color: #002147;
+  background: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #002D7A;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
