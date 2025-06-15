@@ -1,0 +1,99 @@
+.navi{
+    display: flex;
+    padding-left: 400px;
+    gap: 30px;
+    background-color: rgb(224, 192, 11);
+    color: white;
+    height: 60px;
+}
+.fashion{
+    color: blue;
+}
+.shop{
+    display: flex;
+    gap: 60px;
+   
+   
+    color: white;
+}
+.deals{
+    color: #DAA520;
+    padding-left: 90px;
+}
+.start{
+ border: solid 3px blue;
+  background-color: blue;
+}
+.become{
+   border: solid 3px blue;
+  background-color: blue; 
+}
+.ask{
+    border: solid 2px #DAA520;
+    background-color: #DAA520;
+    color: white;
+    width: 200px;
+    padding-left: 100px;
+    border-radius: 20px;
+}
+.contents{
+   margin-left: 500px; 
+}
+#icons{
+    width: 70px;
+}
+#twitter{
+    width: 30px;
+}
+.icon{
+    background-color:blue;
+   padding-left: 600px;
+   height: 60px;
+}
+#dowload{
+    width: 30px;
+   position: relative;
+   left: 20px; 
+   
+    
+}
+#logo{
+   position: relative;
+   left: -10.5cm;
+}
+.dowloads{
+    display: flex;
+    gap: 25px;
+    border: solid 1px white;
+    border-radius: 20px;
+    color: black;
+    height: 47px;
+   
+}
+.sales{
+    padding-left: 2.5cm;
+}
+
+/* @media(min-width:701px){
+    .navi{
+        width: 100%;
+        position: relative;
+        left: -2cm;
+    }
+    .contents{
+        left: 20cm;
+        position: relative;
+        width: 100%;
+        height: 80%;
+    }
+    .dowloads{
+        margin-right: 609px;
+    }
+}
+
+
+     */
+
+
+
+
