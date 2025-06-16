@@ -188,16 +188,16 @@ transition:opacity .3s;
 z-index: 10000; 
 }
 .download-btn {
-    background: var(--white);
-    color: var(--gold);
-    padding: 0.7rem 1.5rem;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: background-color 0.3s;
+ background: var(--white);
+ color: var(--gold);
+ padding: 0.7rem 1.5rem;
+ border-radius: 5px;
+ text-decoration: none;
+font-weight: 600;
+ display: flex;
+   align-items: center;
+  gap: 0.5rem;
+ transition: background-color 0.3s;
 }
 
 .download-btn:hover {
